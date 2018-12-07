@@ -10,13 +10,14 @@ int bounce= 5;
 
 void setup() {
   size(600, 600);
+   emoji= loadImage("red-heart.png");
 }  
 
 void draw() {
   background(255);
   img = loadImage("Hearts.gif");
   image(img, 0, 0);
-  emoji= loadImage("red-heart.png");
+ 
   image(emoji, mouseX, mouseY);
   textSize(40);
   fill(0);
