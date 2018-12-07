@@ -1,3 +1,6 @@
+/* @pjs preload="Hearts.gif"; */
+/* @pjs preload="red-heart.png"; */
+
 
 PImage img;
 PImage emoji;
